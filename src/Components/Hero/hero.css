@@ -1,0 +1,40 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(163, 242, 242);
+}
+header h2{
+    color: rgb(255, 140, 0);
+    
+}
+.buttonContainer{
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 0.1;
+}
+.buttonContainer button{
+    padding: 5px 30px;
+    font-weight: bold;
+    background-color: antiquewhite;
+    border-radius: 5px;
+}
+
+.coverImg{
+    width: 100vw;
+    height: 50vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.coverImg img{
+    width: 100%;
+    
+}
+.Images > img{
+    width: 150px;
+
+}

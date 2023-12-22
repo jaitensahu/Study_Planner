@@ -1,0 +1,39 @@
+.newSubjectCard{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    margin-top: 15px;
+}
+.newSubjectCard table{
+    width: 100%;
+}
+.newSubjectCardRow td:nth-child(1) h2{
+    max-width: 150px;
+    width: 150px;
+}
+.newSubjectCardRow{
+    width: 100%;
+    max-width: 600px;
+    /* display: flex; */
+    justify-content: space-around;
+    align-items: center;
+}
+
+.newSubjectCardRow button{ 
+    padding: 5px 20px;
+    color: White;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+}
+.newSubjectCardRow td:nth-child(3) button{
+    background-color: red;
+ }
+ .newSubjectCardRow td:nth-child(4) button{
+    background-color: green;
+   }
+   .newSubjectCardRow td:nth-child(2) p{
+    font-size: 18px;
+    font-weight: bold;
+   }
